@@ -1,0 +1,115 @@
+#idatividades{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+}
+
+#idatividades h1{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: #FF471A;
+    font-size: 40px;
+}
+
+.saibamais{
+    color:rgba(255, 250, 250, 0.897);
+    font-size: 20px;
+}
+
+.atividades{
+    border-radius: 10px;
+    width: 530px;
+    height: 240px;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    margin-right: 15px;
+    cursor: pointer;  
+    
+}
+
+.funcionalclick{
+    color: #FF471A;
+    font-size: 35px;
+}
+
+.flexbox{
+     display: flex;
+     justify-content: space-around;
+     width: 90%;
+     box-sizing: border-box;  
+}
+
+/* .flexbox h4{
+    border: 1px solid green;
+    font-size: 20px;
+    color: rgba(65, 63, 63, 0.808);
+    text-align: center;
+} */
+
+.funcional{
+    color: #FF471A;
+    font-size: 50px;
+}
+
+.color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutatividades{
+    color:rgba(255, 250, 250, 0.897);
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+}
+
+.photofuncional{
+    background-image: url("../imagens/gym.jpeg");
+    background-size: cover;
+}
+.photomusculacao{
+    
+    background-image: url("../imagens/musculacao.jpeg");
+    background-size: cover;
+}
+
+.photocross{
+    background-image: url("../imagens/cross.jpeg");
+    background-size: cover;
+}
+
+.photopilates{
+    background-image: url("../imagens/pilates.jpeg");
+    background-size: cover;
+}
+
+.photodance{
+    background-image: url("../imagens/dance.jpeg");
+    background-size: cover;
+}
+
+.photobike{
+    background-image: url("../imagens/bike.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.open{
+    display: inherit;
+}
+
+.close{
+    display: none;
+}
+

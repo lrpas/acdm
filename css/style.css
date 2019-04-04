@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.section {
+    position: relative;
+}
+
+.carousel-box {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 5% 10%;
+    box-sizing: border-box !important;
+    flex-direction: column;
+    width: 80%;
+    
+    
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 0.9rem;
+}
+
+.carousel-arrows {
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.carousel-arrows img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* slick css */
+.carousel-box .slick-dots {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.carousel-box .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel-box .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.carousel-box .slick-dots li button:before {
+    content: '•';
+    font-size: 35px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    opacity: .25;
+    color: black;
+}
+
+.carousel-box .slick-dots .slick-active button::before {
+    opacity: 1;
+}
+
+
+.carousel-box .slick-slide div {
+    display: flex;
+    justify-content: center;
+}                           

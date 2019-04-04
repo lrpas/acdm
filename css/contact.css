@@ -1,0 +1,72 @@
+#idcontact{
+    text-align: center;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.message{
+    width: 600px;
+    height: 200px;
+}
+
+.contactbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.information{
+    border-radius: 8px;
+    width: 350px;
+    border: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+#idcontact h1{
+    color: snow;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-top: 0px;
+}
+
+.btncontact{
+    background-color: #FF471A;
+    border-radius: 8px;
+    color: snow;
+    border: #FF471A;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btncontact:hover{
+    color: black;   
+}
+
+.contactphoto{
+    background-image: url("../imagens/banner.jpg");
+    background-size: cover;
+    
+}

@@ -1,0 +1,93 @@
+
+.teste1{
+    
+    width: 40%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; 
+
+}
+
+.teste2{
+  
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box; 
+  
+}
+.banner{
+    background: url("../imagens/banner.jpg") no-repeat,center;
+    background-size: 100%;
+    box-sizing: border-box; 
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-size: cover;  
+}
+
+.logo{
+    margin-left:30px;
+    margin-top:-28px;
+}
+
+.bannerbutton{
+    width: 330px;
+    height: 40px;
+    background-color: #FF471A;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    color: snow;    
+}
+
+.bannerbutton:hover{
+    color:black;
+}
+
+#navbar{
+    height: 80px;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;  
+    position: fixed; 
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0 5px 8px -5px rgba(0, 0, 0, 0.8);
+}
+
+.navbar{
+    background-color: rgba(255, 72, 26, 0.178);
+}
+
+.navbar:hover{
+    background-color:rgb(12, 11, 11) !important;
+}
+
+#navbar ul{
+    display: inline;
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin-top:18px;
+    margin-right:50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#navbar ul li a:hover{
+    color:orangered;
+}
+
+
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size:22px;
+}

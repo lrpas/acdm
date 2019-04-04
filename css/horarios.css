@@ -1,0 +1,47 @@
+#idhorario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+  
+   
+
+}
+
+
+.table{
+   
+    width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+.tt{
+    overflow:auto;
+    box-sizing: border-box;
+   
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#idhorario h1{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: #FF471A;
+    font-size: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th{
+    background-color: #FF471A;
+    color: snow;
+}

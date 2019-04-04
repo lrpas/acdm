@@ -1,0 +1,59 @@
+#contactmobile{
+background-image: url("../imagens/banner.jpg");
+background-size: cover;
+display: none;
+flex-direction: column;
+align-items: center;
+height: 750px;
+box-sizing: border-box;
+}
+
+.informationmobile{
+    border-radius: 8px;
+    width: 70%;
+    border: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.textareamobile{
+    resize: none;
+    width: 70%;
+    height: 250px;
+    border: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.messagemobile{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#contactmobile h1{
+    color: snow;
+    font-size: 40px;
+}
+
+.contactmobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.btncontactmobile{
+    background-color: #FF471A;
+    border-radius: 8px;
+    color: snow;
+    border: #FF471A;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+}
